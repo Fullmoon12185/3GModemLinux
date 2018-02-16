@@ -7,3 +7,9 @@ Materials:
 
 Bootstrap:
 1. SIM activation on real phone
+2. Gather APN from GSM service provider
+
+Procedure:
+1. Follow instructions on https://github.com/sixfab/rpiShields/tree/master/tutorials/tutorial3
+2. Setup APN
+3. Run test and verify pppd0 interface created: # sudo pppd call gprs
